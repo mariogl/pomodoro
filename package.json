@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "live-server src/"
+    "start": "live-server src/",
+    "copy": "rimraf dist && copyfiles -u 1 src/**/* dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "copyfiles": "^2.1.1",
+    "live-server": "^1.2.1",
+    "rimraf": "^3.0.0"
   }
 }
