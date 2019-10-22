@@ -1,0 +1,50 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #218c74;
+  color: #fff;
+}
+.header {
+  font-family: "Roboto Mono", monospace;
+  background-color: #227093;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  font-weight: 700;
+}
+main {
+  height: calc(100% - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.accion {
+  font-family: Lato, sans-serif;
+  font-size: 1.2em;
+  position: absolute;
+  top: 0;
+}
+.tomate {
+  width: 100px;
+  cursor: pointer;
+  display: none;
+}
+.tomate.on {
+  display: block;
+}
+.mute {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  cursor: pointer;
+  display: none;
+}
+.mute.on {
+  display: block;
+}
