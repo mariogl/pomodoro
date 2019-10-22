@@ -13,7 +13,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "icons/safari-pinned-tab.svg",
-    "revision": "161ddc3397251810fe8e17b70d6533b9"
+    "revision": "1f1b9b010560a388a1003d1467755d5d"
   },
   {
     "url": "img/mute.svg",
