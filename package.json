@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "live-server src/",
-    "copy": "rimraf dist && copyfiles -u 1 src/**/* dist"
+    "start": "live-server dist/",
+    "copy": "rimraf dist && copyfiles -u 1 src/**/* dist",
+    "postcopy": "workbox injectManifest"
   },
   "keywords": [],
   "author": "",
